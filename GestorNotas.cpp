@@ -50,8 +50,11 @@ int main()
         }
         else if (opcion == 3)
         {
+            float promedio;
+            promedio =  libro[0] + libro[1] + libro[2] + libro[3] + libro[4] + libro[5] + libro[6] + libro[7] + libro[8];
+            promedio = promedio / 9;
+            cout << promedio << endl;
 
-            cout << "" << endl;
         }
     }
     return numnota;
